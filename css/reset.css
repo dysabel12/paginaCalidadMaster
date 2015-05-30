@@ -1,0 +1,53 @@
+.height350{
+	height: 350px!important;
+}
+.tabs .tab a {
+    color: rgb(65, 107, 135);
+ }
+ .tabs .tab a:hover {
+    color: #B2D7F6;
+ }
+.indicator{
+	height: 5px!important;
+	background-color: #B2D7F6!important;
+}
+label{
+	color:#294659;
+}
+h2,h3,h4,h5,h6{
+	color:white;
+	 line-height: 1.5em;
+}
+.collapsible-body p{
+	text-align: left;
+	width: 100%!important;
+	color: #294659;
+}
+.collapsible-body{
+	background-color: white;
+}
+
+.collapsible-header{
+	background-color: #294659;
+	color:white;
+}
+.intro-2{
+	width:50%;
+	display:inline-block;
+	 height:100%;
+	 float:right;
+	padding:2.5em;
+}
+.intro-1{
+	width:50%;
+	display:inline-block;
+	 height:100%;
+	 float:left;
+	padding:4em;
+}
+.text-white{
+	color:white;
+}
+.text-justify{
+	text-align: justify;
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js One Page Scroll Sites</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create fullscreen pages fast and simple. One page scroll like iPhone website." />
+	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple" />
+	<meta name="Resource-type" content="Document" />
+
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+	<style>
+
+		/* Sections
+		 * ---------------------------------------
+		#section0 img,
+		#section1 img{
+			margin: 20px 0 0 0;
+		}
+		#section2 img{
+			margin: 20px 0 0 52px;
+		}
+		#section3 img{
+			bottom: 0px;
+			position: absolute;
+			margin-left: -420px;
+		}
+		.intro p{
+			width: 50%;
+			margin: 0 auto;
+			font-size: 1.5em;
+		}
+		.twitter-share-button{
+			position: absolute;
+			z-index: 99;
+			right: 149px;
+			top: 9px;
+		} */
+
+	</style>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Portada</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Ingeniería de Requerimientos</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Gestión del Proyecto</a></li>
+	<li data-menuanchor="4thpage"><a href="#4thpage">Fin</a></li>
+</ul>
+
+
+<div id="fullpage">
+	<div class="section " id="section0" style="  background: url(file:///C:/Users/Diana/Desktop/PaginaCalidad-master/documentos/cara.png) 90% 70% no-repeat rgb(237, 250, 255);background:size:cover;">
+		<h1>NTP 29110</h1>
+		<p style="font-weight:bolder;padding-left:5%;text-align:left;">Integrantes:</p>
+		<ul style="padding-left:5%;">
+			<li style="text-align:justify; font-size:1.5em;">
+				Barreto Saldaña, Daniel
+			</li>
+			<li style="text-align:justify; font-size:1.5em;">
+				García Napurí, Jorge
+			</li>
+			<li style="text-align:justify; font-size:1.5em;">
+				Llanos Quispe, Diana
+			</li>
+			<li style="text-align:justify; font-size:1.5em;">
+				Sánchez Salvador, Jordan
+			</li>
+		</ul>
+		<p style="font-weight:bolder;padding-left:5%;text-align:left;">Profesor:</p>
+		<ul style="padding-left:5%;"><li style="text-align:justify; font-size:1.5em;">
+			Ing. Hector Hernan Henriquez Taboada</li></ul>
+		<p style="font-weight:bolder;padding-left:5%;text-align:left;">Curso</p>
+		<ul style="padding-left:5%;"><li style="text-align:justify; font-size:1.5em;">
+			Calidad de Software</li></ul>
+
+	</div>
+	<div class="section" id="section1">
+		<div class="slide">
+			<div class="intro" style="height:100%;">
+				<h2 style="padding-top:2.5em;">Proceso: Gestión de Proyectos (GP)</h2>
+				<h4>Actividad: GP.1 Planificación de Proyecto</h4>
+				<h4>Actividad: GP.2 Ejecución de Plan de Proyecto</h4>
+				<h4>Actividad: GP.3 Evaluación y control de proyecto</h4>
+				<h4>Actividad: GP.4 Cierre del proyecto</h4>
+			</div>
+
+		</div>
+
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Proceso de Planificación de Proyecto</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test35" />
+							      <label for="test35">Plan de Proyecto</label><br>
+							      <input type="checkbox" id="test36" />
+							      <label for="test36">Descripción de Proyecto</label><br>
+							      
+							      <!--<input type="checkbox" id="test38" />
+							      <label for="test38">Red</label><br>
+							      <input type="checkbox" id="test39" />
+							      <label for="test39">Red</label><br>-->
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test310" />
+							      <label for="test310">1. Identificar productos y actividades</label><br>
+							      <input type="checkbox" id="test311" />
+							      <label for="test311">2. Crear un EDT (estructura de descomposición de trabajo)</label><br>
+							      <input type="checkbox" id="test312" />
+							      <label for="test312">3. Estimar los recursos, esfuerzo y duración</label><br>
+							      <input type="checkbox" id="test313" />
+							      <label for="test313">4. Crear un cronograma</label><br>
+							      <!--<input type="checkbox" id="test314" />
+							      <label for="test314">Red</label><br>-->
+
+
+
+
+
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+				  <ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Escenario de Atributos de Calidad</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/EAC.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Priorización de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      		<iframe src="https://docs.google.com/viewer?srcid=1sdY1u9rQCNW0dTQkdYuVMMAsEj2s95Zgc_fBMai2vfU&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+
+		</div>
+	    <div class="slide">
+			
+				<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Ejecución de Plan de Proyecto</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test314" />
+							      <label for="test314">Plan de Proyecto</label><br>
+							      <input type="checkbox" id="test315" />
+							      <label for="test315">Reporte de Avance</label><br>
+							      <input type="checkbox" id="test316" />
+							      <label for="test316">Solicitudes de cambio</label><br>
+							      
+							      
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test39" />
+							      <label for="test39">1. Obtener el acuerdo del plan de proyecto</label><br>
+							      <input type="checkbox" id="test317" />
+							      <label for="test317">2. Registrar el estado</label><br>
+							      <input type="checkbox" id="417" />
+							      <label for="test417">3. Tomar acciones correctivas</label><br>
+
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Especificación de Caso de Uso</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/ECU.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+
+		</div>
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Evaluación y Control de Proyecto</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test318" />
+							      <label for="test318">Plan de Proyecto</label><br>
+							      <input type="checkbox" id="test319" />
+							      <label for="test319">Reporte de Avance</label><br>
+							      <input type="checkbox" id="test519" />
+							      <label for="test519">Solicitudes de Cambio</label><br>
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test320" />
+							      <label for="test320">1. Revisión del plan</label><br>
+							      <input type="checkbox" id="test321" />
+							      <label for="test321">2. Identificar desvíos en el plan</label><br>
+							      <input type="checkbox" id="test322" />
+							      <label for="test322">3. Procesar las solicitudes de cambio</label><br>
+						
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Resultados de Verificación</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/VER.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Resultados de Validación</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/VAL.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Cierre del Proyecto</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test323" />
+							      <label for="test323">Plan de proyecto</label><br>
+							      <input type="checkbox" id="test423" />
+							      <label for="test423">Software</label><br>
+							      <input type="checkbox" id="test424" />
+							      <label for="test424">Acta de aceptación</label><br>
+
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			          
+
+
+
+
+
+
+
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							    <input type="checkbox" id="test324" />
+							    <label for="test324">1. Entregar el software</label><br>
+							    <input type="checkbox" id="test325" />
+							    <label for="test325">2. Obtener la aceptación del cliente</label><br>
+							    <input type="checkbox" id="test326" />
+							    <label for="test326">3. Documentación de la línea base del producto</label><br>
+							    <input type="checkbox" id="test327" />
+							    <label for="test327">4. Conducir el análisis del cierre del proyecto</label><br>
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Solicitud de Cambios</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SOL.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="slide">
+			<div class="intro" style="height:100%;">
+				<h2 style="padding-top:2.5em;">Proceso: Implementación de Software (IS)</h2>
+				<h4>Actividad: IS.2 Análisis de Requisitos de Software</h4>
+				<div class="contenido" style="position:relative; padding-right:6em;padding-left:6em;">
+					<h5 class="text-justify">La actividad de Análisis de Requisitos de Software analiza los requisitos acordados con el Cliente y establece los requisitos del proyecto validados. La actividad provee:</h5>
+					<ul class="text-justify" style="line-height: 1.5em;">
+						<li class="text-white">La revisión del Plan de Proyecto por parte del Equipo de Trabajo para determinar la asignación de las Tareas</li>
+						<li class="text-white">
+							La obtención, análisis y especificación de los requisitos del Cliente.
+						</li>
+						<li class="text-white">
+							La verificación y validación de los requisitos.
+						</li>
+						<li class="text-white">El control de versiones de los requisitos del producto de Software.</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Identificación de los requerimientos</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test5" />
+							      <label for="test5">Caso de Uso</label><br>
+							      <input type="checkbox" id="test6" />
+							      <label for="test6">Escenarios de Atributos de Calidad</label><br>
+							      <input type="checkbox" id="test7" />
+							      <label for="test7">Documento de Requerimientos</label><br>
+							      <!--<input type="checkbox" id="test8" />
+							      <label for="test8">Red</label><br>
+							      <input type="checkbox" id="test9" />
+							      <label for="test9">Red</label><br>-->
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test10" />
+							      <label for="test10">1. Recopilar información acerca del dominio de la aplicación</label><br>
+							      <input type="checkbox" id="test11" />
+							      <label for="test11">2. Identificar el alcance del proyecto</label><br>
+							      <input type="checkbox" id="test12" />
+							      <label for="test12">3. Identificar y capturar los requerimientos</label><br>
+							      <input type="checkbox" id="test13" />
+							      <label for="test13">4. Estructurar y priorizar los requerimientos</label><br>
+							      <!--<input type="checkbox" id="test14" />
+							      <label for="test14">Red</label><br>-->
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+				 <!--<div class="row" style="height:100%;">
+				    <div class="col s12">
+				      <ul class="tabs">
+				        <li class="tab col s6"><a class="active" href="#test1">Doc. de Requerimientos</a></li>
+				        <li class="tab col s6"><a href="#test2">E. de Atributos de calidad</a></li>
+				        <li class="tab col s12"><a href="#test3">Priorización de Requerimientos</a></li>
+
+				      </ul>
+				    </div>
+				    <div id="test1" class="col s12" style="height:100%;">
+				    	<iframe src="https://docs.google.com/viewer?srcid=0B3o6EdXF6-nOMV84VjJ1N25hQTg&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
+				    </div>
+				    <div id="test2" class="col s12" style="height:100%;">Test 2</div>
+				    <div id="test3" class="col s12" style="height:100%;">Test 3</div>
+				  </div>-->
+					
+				  <ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Escenario de Atributos de Calidad</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/EAC.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Priorización de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      		<iframe src="https://docs.google.com/viewer?srcid=1sdY1u9rQCNW0dTQkdYuVMMAsEj2s95Zgc_fBMai2vfU&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+
+		</div>
+	    <div class="slide">
+			
+				<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Perfeccionamiento y análisis de requerimientos</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test14" />
+							      <label for="test14">Caso de Uso</label><br>
+							      <input type="checkbox" id="test15" />
+							      <label for="test15">Escenarios de Atributos de Calidad</label><br>
+							      <input type="checkbox" id="test16" />
+							      <label for="test16">Documento de Requerimientos</label><br>
+							      <input type="checkbox" id="test8" />
+							      <label for="test8">Prototipo de Software</label><br>
+							      
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test9" />
+							      <label for="test9">1.	Detallar requerimientos</label><br>
+							      <input type="checkbox" id="test17" />
+							      <label for="test17">2. Producir un prototipo</label><br>
+
+
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Especificación de Caso de Uso</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/ECU.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+
+		</div>
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Verificación y validación de requerimientos</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test18" />
+							      <label for="test18">Documento de Requerimientos</label><br>
+							      <input type="checkbox" id="test19" />
+							      <label for="test19">Prototipo de Software</label><br>
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test20" />
+							      <label for="test20">1. Esclarecer requerimientos confusos (verificación)</label><br>
+							      <input type="checkbox" id="test21" />
+							      <label for="test21">2. Revisar la especificación de requerimientos de software</label><br>
+							      <input type="checkbox" id="test22" />
+							      <label for="test22">3. Validar requerimientos</label><br>
+						
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Resultados de Verificación</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/VER.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Resultados de Validación</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/VAL.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	    <div class="slide">
+			<div class="intro" style="height:100%;">
+				<div class="intro-1">
+					<h3>Gestión del cambio de Requerimientos</h3>
+					<ul class="collapsible popout" data-collapsible="accordion">
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-subtitles"></i>Artefactos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							      <input type="checkbox" id="test23" />
+							      <label for="test23">Documento de Requerimientos</label><br>
+
+							    </p>
+			            </div>
+			          </li>
+			          <li>
+			            <div class="collapsible-header"><i class="mdi-av-games"></i>Pasos</div>
+			            <div class="collapsible-body">
+			            	<p>
+							    <input type="checkbox" id="test24" />
+							    <label for="test24">1. Monitoreo de cambios en los requerimientos</label><br>
+							    <input type="checkbox" id="test25" />
+							    <label for="test25">2. Analizar el impacto de los cambios</label><br>
+							    <input type="checkbox" id="test26" />
+							    <label for="test26">3. Identificar cambios que están fuera del alcance del proyecto</label><br>
+							    <input type="checkbox" id="test27" />
+							    <label for="test27">4. Priorizar los cambios</label><br>
+							    </p>
+			            </div>
+			          </li>
+			        </ul>
+						    
+				</div>
+				<div class="intro-2">
+					<ul class="collapsible popout" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Documento de Requerimientos</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SRS.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="mdi-action-description"></i>Solicitud de Cambios</div>
+				      <div class="collapsible-body height350">
+				      	<iframe src="documentos/SOL.pdf" width="100%" height="100%"></iframe>
+				      </div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>GRACIAS</h1>
+		</div>
+	</div>
+</div>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['rgb(237, 250, 255)', '#416B87', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu',
+				scrollingSpeed: 1000
+			});
+
+		});
+	</script>
+</body>
+</html>
